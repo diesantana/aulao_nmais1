@@ -29,4 +29,5 @@ public class ProductResource {
 		Page<ProductDTO> list = service.find(pageRequest);
 		return ResponseEntity.ok(list);
 	}
+
 }
